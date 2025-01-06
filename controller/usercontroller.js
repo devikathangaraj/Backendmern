@@ -1,4 +1,5 @@
 import user from "../model/usermodel.js";
+
 export const create=async(req,res)=>{
     try{
         let userdata=new user(req.body);
